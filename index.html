@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Camera</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Camera and Screen</h1>
+      <div class="row around">
+        <div class="camera">
+          <video id="cameraFeed" controls></video>
+          <div class="control row around">
+            <h3>Camera</h3>
+            <label class="switch">
+              <input type="checkbox" id="camera" />
+              <span class="slider round"></span>
+            </label>
+          </div>
+        </div>
+        <div class="screen">
+          <video id="screenFeed" controls></video>
+          <div class="control row around">
+            <h3>Screen</h3>
+            <label class="switch">
+              <input type="checkbox" id="screen"/>
+              <span class="slider round"></span>
+            </label>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
